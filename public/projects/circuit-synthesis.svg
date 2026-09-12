@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Circuit Synthesis AI research preview</title>
+  <desc id="desc">An electronic circuit diagram beside target and evolved frequency response curves.</desc>
+  <rect width="800" height="450" rx="12" fill="#10202a"/>
+  <path d="M400 24v402" stroke="#314954"/>
+  <g fill="none" stroke="#e1e9ed" stroke-width="2">
+    <path d="M52 210h65m0 0v-80h64m-16 0 8-13 14 26 14-26 14 26 14-26 9 13h41v45"/>
+    <path d="M117 210v100h60m-14-15h28m-22 8h16m94-108v110h-39"/>
+    <path d="M181 180v112m-16-22h32m-27-12h22"/>
+    <path d="m238 162 82 48-82 48Z"/>
+    <path d="M320 210h51"/>
+  </g>
+  <g fill="#dce8ed" font-family="Arial,sans-serif" font-size="14"><text x="52" y="202">Vin</text><text x="331" y="201">Vout</text><text x="178" y="105">R1</text><text x="142" y="278">C1</text><text x="280" y="329">C2</text></g>
+  <g transform="translate(450 70)">
+    <path d="M0 0v300h292M0 250h292M0 200h292M0 150h292M0 100h292M0 50h292M58 0v300M116 0v300M174 0v300M232 0v300" fill="none" stroke="#29414d" stroke-width="1"/>
+    <path d="M0 18C58 18 63 31 86 76s33 109 86 151c36 29 70 31 120 32" fill="none" stroke="#66b7f0" stroke-width="3"/>
+    <path d="M0 22c44 0 66 25 93 71s46 103 89 129c39 23 72 26 110 28" fill="none" stroke="#8578ee" stroke-width="3"/>
+    <g fill="#d9e4e9" font-family="Arial,sans-serif" font-size="12"><text x="-25" y="7">0</text><text x="-34" y="58">-20</text><text x="-34" y="108">-40</text><text x="-34" y="158">-60</text><text x="-34" y="208">-80</text><text x="-42" y="258">-100</text><text x="90" y="330">Frequency (dB)</text></g>
+    <path d="M182 -30h28" stroke="#66b7f0" stroke-width="3"/><text x="220" y="-25" fill="#dce6eb" font-family="Arial,sans-serif" font-size="12">Target</text><path d="M182 -10h28" stroke="#8578ee" stroke-width="3"/><text x="220" y="-5" fill="#dce6eb" font-family="Arial,sans-serif" font-size="12">Evolved</text>
+  </g>
+</svg>

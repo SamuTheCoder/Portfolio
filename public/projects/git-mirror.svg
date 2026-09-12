@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" role="img" aria-labelledby="title desc">
+  <title id="title">Git Repository Mirror terminal preview</title>
+  <desc id="desc">A terminal showing successful GitHub and GitLab repository synchronization.</desc>
+  <rect width="800" height="370" rx="12" fill="#0d1820"/>
+  <rect width="800" height="46" rx="12" fill="#26333c"/><rect y="34" width="800" height="12" fill="#26333c"/>
+  <circle cx="27" cy="23" r="8" fill="#f06d62"/><circle cx="53" cy="23" r="8" fill="#f5bf4f"/><circle cx="79" cy="23" r="8" fill="#61c75a"/>
+  <text x="693" y="29" fill="#afbec7" font-family="Arial,sans-serif" font-size="12">git-mirror</text>
+  <g font-family="monospace" font-size="17">
+    <text x="30" y="82" fill="#f3f6f7">$ git-mirror sync</text>
+    <text x="31" y="118" fill="#59d98e">✓</text><text x="61" y="118" fill="#dce5ea">Fetching repositories...</text>
+    <text x="31" y="150" fill="#59d98e">✓</text><text x="61" y="150" fill="#dce5ea">Syncing to GitHub...</text>
+    <text x="31" y="182" fill="#59d98e">✓</text><text x="61" y="182" fill="#dce5ea">Syncing to GitLab...</text>
+    <text x="31" y="214" fill="#59d98e">✓</text><text x="61" y="214" fill="#dce5ea">Skipping disabled repositories...</text>
+    <text x="31" y="246" fill="#59d98e">✓</text><text x="61" y="246" fill="#dce5ea">12 repositories synchronized successfully.</text>
+  </g>
+  <g font-family="Arial,sans-serif">
+    <rect x="24" y="282" width="170" height="65" rx="7" fill="#1c2932"/><text x="60" y="312" fill="#f0f4f6" font-size="20">12</text><text x="60" y="330" fill="#8da0ac" font-size="10">Repositories</text>
+    <rect x="204" y="282" width="170" height="65" rx="7" fill="#1c2932"/><text x="240" y="312" fill="#f0f4f6" font-size="20">2</text><text x="240" y="330" fill="#8da0ac" font-size="10">Platforms</text>
+    <rect x="384" y="282" width="170" height="65" rx="7" fill="#1c2932"/><text x="420" y="312" fill="#f0f4f6" font-size="20">0</text><text x="420" y="330" fill="#8da0ac" font-size="10">Errors</text>
+    <rect x="564" y="282" width="212" height="65" rx="7" fill="#1c2932"/><text x="600" y="312" fill="#f0f4f6" font-size="20">2m 14s</text><text x="600" y="330" fill="#8da0ac" font-size="10">Total time</text>
+  </g>
+</svg>
+

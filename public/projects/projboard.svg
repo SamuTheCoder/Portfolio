@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" role="img" aria-labelledby="title desc">
+  <title id="title">ProjBoard interface preview</title>
+  <desc id="desc">A dark project management dashboard with navigation and four kanban columns.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101b25"/><stop offset="1" stop-color="#1c2a35"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="370" rx="12" fill="url(#bg)"/>
+  <rect x="16" y="16" width="150" height="338" rx="8" fill="#182633"/>
+  <circle cx="35" cy="38" r="10" fill="#4899e8"/><path d="M31 42v-9h7v9" fill="none" stroke="#dff3ff" stroke-width="2"/>
+  <text x="53" y="43" fill="#f1f6fa" font-family="Arial,sans-serif" font-size="16" font-weight="700">ProjBoard</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#adc0cc">
+    <rect x="25" y="68" width="124" height="34" rx="5" fill="#2b3c4c"/><text x="50" y="90" fill="#dbe9f2">Projects</text>
+    <text x="50" y="129">My Tasks</text><text x="50" y="166">Calendar</text><text x="50" y="203">Team</text><text x="50" y="240">Settings</text>
+  </g>
+  <text x="187" y="42" fill="#f5f7f8" font-family="Arial,sans-serif" font-size="17" font-weight="700">Website Redesign</text>
+  <text x="187" y="62" fill="#7f94a3" font-family="Arial,sans-serif" font-size="10">PROJECT / DESIGN SYSTEM</text>
+  <rect x="673" y="22" width="105" height="32" rx="6" fill="#3b8ff1"/><text x="692" y="42" fill="white" font-family="Arial,sans-serif" font-size="12">+ New Task</text>
+  <g font-family="Arial,sans-serif">
+    <g transform="translate(187 83)"><rect width="138" height="260" rx="7" fill="#22313e"/><text x="12" y="24" fill="#d7e4ec" font-size="12">Backlog</text><text x="117" y="24" fill="#718898" font-size="11">5</text><rect x="9" y="38" width="120" height="69" rx="5" fill="#344451"/><text x="17" y="57" fill="#e6edf1" font-size="9">Improve landing page</text><rect x="17" y="78" width="33" height="14" rx="7" fill="#d46572"/><text x="25" y="88" fill="white" font-size="7">High</text><rect x="9" y="118" width="120" height="67" rx="5" fill="#344451"/><text x="17" y="137" fill="#e6edf1" font-size="9">Fix mobile navigation</text></g>
+    <g transform="translate(337 83)"><rect width="138" height="260" rx="7" fill="#22313e"/><text x="12" y="24" fill="#75bff2" font-size="12">In Progress</text><text x="117" y="24" fill="#718898" font-size="11">3</text><rect x="9" y="38" width="120" height="69" rx="5" fill="#344451"/><text x="17" y="57" fill="#e6edf1" font-size="9">User authentication</text><rect x="9" y="118" width="120" height="67" rx="5" fill="#344451"/><text x="17" y="137" fill="#e6edf1" font-size="9">Design documentation</text></g>
+    <g transform="translate(487 83)"><rect width="138" height="260" rx="7" fill="#22313e"/><text x="12" y="24" fill="#d7e4ec" font-size="12">Review</text><text x="117" y="24" fill="#718898" font-size="11">2</text><rect x="9" y="38" width="120" height="69" rx="5" fill="#344451"/><text x="17" y="57" fill="#e6edf1" font-size="9">Design system</text><rect x="9" y="118" width="120" height="67" rx="5" fill="#344451"/><text x="17" y="137" fill="#e6edf1" font-size="9">Deploy to production</text></g>
+    <g transform="translate(637 83)"><rect width="141" height="260" rx="7" fill="#22313e"/><text x="12" y="24" fill="#8ed7a8" font-size="12">Done</text><text x="120" y="24" fill="#718898" font-size="11">4</text><rect x="9" y="38" width="123" height="69" rx="5" fill="#344451"/><text x="17" y="57" fill="#e6edf1" font-size="9">API integration</text><rect x="9" y="118" width="123" height="67" rx="5" fill="#344451"/><text x="17" y="137" fill="#e6edf1" font-size="9">Deploy to production</text></g>
+  </g>
+</svg>
+

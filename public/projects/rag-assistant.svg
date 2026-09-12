@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 370" role="img" aria-labelledby="title desc">
+  <title id="title">RAG Educational Assistant interface preview</title>
+  <desc id="desc">A learning assistant with a dark navigation sidebar and a light AI chat panel.</desc>
+  <rect width="800" height="370" rx="12" fill="#14202a"/>
+  <rect x="16" y="16" width="194" height="338" rx="8" fill="#1d2b37"/>
+  <circle cx="36" cy="38" r="10" fill="#566ee8"/><path d="M32 42v-9h8v9" fill="none" stroke="white" stroke-width="2"/>
+  <text x="54" y="43" fill="#f2f5f8" font-family="Arial,sans-serif" font-size="15" font-weight="700">EduRAG</text>
+  <g font-family="Arial,sans-serif" font-size="12" fill="#c6d1d9">
+    <rect x="27" y="67" width="160" height="37" rx="6" fill="#334451"/><text x="52" y="90" fill="white">New Chat</text>
+    <text x="52" y="136">My Library</text><text x="52" y="178">Study Guides</text><text x="52" y="220">Assignments</text><text x="52" y="262">Settings</text>
+  </g>
+  <rect x="226" y="16" width="558" height="338" rx="8" fill="#f2f5f8"/>
+  <text x="256" y="51" fill="#1c2730" font-family="Arial,sans-serif" font-size="17" font-weight="700">RAG Educational Assistant</text>
+  <text x="256" y="72" fill="#74818a" font-family="Arial,sans-serif" font-size="10">Ask. Learn. Understand.</text>
+  <rect x="444" y="97" width="308" height="42" rx="9" fill="#b9d8ff"/>
+  <text x="462" y="122" fill="#263746" font-family="Arial,sans-serif" font-size="12">How do transformers work in simple terms?</text>
+  <circle cx="264" cy="181" r="22" fill="white" stroke="#d9e0e5"/><circle cx="264" cy="175" r="6" fill="none" stroke="#283744" stroke-width="2"/><path d="M254 191c1-8 19-8 20 0" fill="none" stroke="#283744" stroke-width="2"/>
+  <rect x="300" y="153" width="452" height="128" rx="9" fill="white" stroke="#d7dfe4"/>
+  <g fill="#26333c" font-family="Arial,sans-serif" font-size="12">
+    <text x="318" y="178">Transformers are a type of deep learning model that</text><text x="318" y="198">use self-attention to understand relationships between</text><text x="318" y="218">tokens in a sequence. They process all tokens in parallel,</text><text x="318" y="238">which makes them highly efficient for language tasks.</text>
+  </g>
+  <path d="M300 254h452" stroke="#e0e5e8"/><text x="318" y="272" fill="#586872" font-family="Arial,sans-serif" font-size="10">Sources (3)</text>
+  <rect x="256" y="307" width="496" height="31" rx="7" fill="white" stroke="#cbd5db"/><text x="272" y="327" fill="#89959d" font-family="Arial,sans-serif" font-size="10">Ask a question...</text><rect x="709" y="309" width="41" height="27" rx="6" fill="#4d98f6"/><path d="m723 317 5 5-5 5m5-5h8" fill="none" stroke="white" stroke-width="1.5"/>
+</svg>
+

@@ -1,0 +1,75 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-page: #202930;
+  --color-surface: #26323a;
+  --color-surface-raised: #2b3740;
+  --color-surface-deep: #152029;
+  --color-border: #394750;
+  --color-border-strong: #4b5962;
+  --color-text-primary: #f1f5f7;
+  --color-text-secondary: #d2dbe0;
+  --color-text-muted: #acbac3;
+  --color-text-subtle: #7f8e98;
+  --color-accent: #68b9ef;
+  --color-accent-bright: #8dcefa;
+  --color-accent-muted: #367da5;
+  --color-accent-soft: #244967;
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    color-scheme: dark;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    background: var(--color-page);
+    font-family: var(--font-sans);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  input {
+    font: inherit;
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  ::selection {
+    background: color-mix(in srgb, var(--color-accent) 30%, transparent);
+  }
+}
+
+@layer components {
+  .page-shell {
+    width: min(100% - 2rem, 1350px);
+    margin-inline: auto;
+  }
+
+  .detail-section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2rem;
+    letter-spacing: -0.025em;
+    color: var(--color-text-primary);
+  }
+}
+
+@media (min-width: 640px) {
+  .page-shell {
+    width: min(100% - 3rem, 1350px);
+  }
+}
