@@ -17,7 +17,7 @@ export const projects: Project[] = [
             "TypeScript",
         ],
         github: "https://github.com/",
-        coverImage: "/projects/projboard.svg",
+        coverImage: "/projects/projboard/projects_page.png",
     },
     {
         slug: "rag-educational-assistant",

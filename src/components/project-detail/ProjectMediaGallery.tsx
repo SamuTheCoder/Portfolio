@@ -31,7 +31,7 @@ export function ProjectMediaGallery({ items }: ProjectMediaGalleryProps) {
         <img
           src={activeItem.src}
           alt={activeItem.alt}
-          className="aspect-video w-full object-cover object-top sm:aspect-[16/7] xl:aspect-[16/5]"
+          className="block h-auto w-full"
         />
       </div>
 
@@ -61,7 +61,7 @@ export function ProjectMediaGallery({ items }: ProjectMediaGalleryProps) {
                     index === activeIndex ? 'border-accent' : 'border-border-strong hover:border-accent-muted'
                   }`}
                 >
-                  <img src={item.src} alt="" className="aspect-[16/7] w-full object-cover object-top" />
+                  <img src={item.src} alt="" className="block h-auto w-full" />
                 </span>
                 <span
                   className={`mt-1.5 block truncate text-center text-xs ${

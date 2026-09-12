@@ -55,21 +55,29 @@
 
 @layer components {
   .page-shell {
-    width: min(100% - 2rem, 1350px);
+    width: min(100% - 2rem, 1600px);
     margin-inline: auto;
   }
 
   .detail-section-title {
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 2.25rem;
     letter-spacing: -0.025em;
     color: var(--color-text-primary);
+  }
+
+  .hero-background {
+    background-color: var(--color-page);
+    background-image: url('/projects/hero_bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
 @media (min-width: 640px) {
   .page-shell {
-    width: min(100% - 3rem, 1350px);
+    width: min(100% - 3rem, 1600px);
   }
 }

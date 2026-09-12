@@ -1,13 +1,9 @@
 import { Link } from 'react-router-dom';
 import { ArrowIcon, ExternalLinkIcon, GitHubIcon } from '../ui/Icons';
-import { ProjectTags } from './ProjectTags';
 
 interface ProjectHeaderProps {
   name: string;
   subtitle: string;
-  description: string;
-  categories: readonly string[];
-  technologies: readonly string[];
   github?: string;
   liveDemo?: string;
   quote?: string;
@@ -19,9 +15,6 @@ const actionClass =
 export function ProjectHeader({
   name,
   subtitle,
-  description,
-  categories,
-  technologies,
   github,
   liveDemo,
   quote,
@@ -40,16 +33,9 @@ export function ProjectHeader({
         <div>
           <h1 className="text-3xl font-semibold tracking-tight text-text-primary sm:text-4xl">{name}</h1>
           <p className="mt-1 text-lg font-medium text-text-secondary">{subtitle}</p>
-          <p className="mt-2 max-w-3xl text-sm leading-6 text-text-muted">{description}</p>
 
-          <div className="mt-4 flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-            <div className="space-y-2">
-              <ProjectTags items={categories} kind="category" />
-              <ProjectTags items={technologies} />
-            </div>
-
-            {github || liveDemo ? (
-              <div className="flex shrink-0 flex-wrap gap-3">
+          {github || liveDemo ? (
+            <div className="mt-4 flex flex-wrap gap-3">
               {github ? (
                 <a
                   href={github}
@@ -73,9 +59,8 @@ export function ProjectHeader({
                   <ExternalLinkIcon className="h-3.5 w-3.5" />
                 </a>
               ) : null}
-              </div>
-            ) : null}
-          </div>
+            </div>
+          ) : null}
         </div>
 
         {quote ? (
